@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posters</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+      <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <a href="" class="logo">капризули</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#" class="nav-link">Кто мы?</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Мероприятия</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Книга</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Пространство</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Кастом</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+        <!-- Категории с кнопками -->
+
+        <div class="container">
+          <div class="row mt-5" id="filter-buttons">
+            <div class="col-12">
+               <button class="btn mb-2 me-1 active" data-filter="all">
+                Все афиши
+              </button>
+              <button class="btn mb-2 mx-1" data-filter="event">Мероприятия</button>
+              <button class="btn mb-2 mx-1" data-filter="cars">Закрытык клуб</button>
+              <button class="btn mb-2 mx-1" data-filter="people">О здоровье</button>
+            </div>
+          </div>
+
+          <!-- Раздел фильтруемых карточек / изображений -->
+
+          <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+            <div class="card p-0" data-name="event">
+              <img src="./img/posters/A4 - 99.svg" alt="img" />
+            </div>
+            <div class="card p-0" data-name="event">
+              <img src="./img/posters/A4 - 98.svg" alt="img" />
+            </div>
+            <div class="card p-0" data-name="event">
+              <img src="./img/posters/A4 - 97.svg" alt="img" />
+            </div>
+            </div>
+
+            <div class="card p-0" data-name="cars">
+              <img src="./img/posters/A4 - 99.svg" alt="img" />
+            </div>
+            <div class="card p-0" data-name="cars">
+              <img src="images/car-2.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-title">Fast</h6>
+              </div>
+            </div>
+            <div class="card p-0" data-name="cars">
+              <img src="images/car-3.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-title">Classic</h6>
+             
+              </div>
+            </div>
+            <div class="card p-0" data-name="people">
+              <img src="images/people-1.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-title">Men</h6>
+                <p class="card-text">Lorem ipsum dolor..</p>
+              </div>
+            </div>
+            <div class="card p-0" data-name="people">
+              <img src="images/people-2.jpg" alt="img" />
+              <div class="card-body">
+                <h6 class="card-title">Girl</h6>
+                <p class="card-text">Lorem ipsum dolor..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

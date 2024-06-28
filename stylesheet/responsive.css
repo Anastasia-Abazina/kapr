@@ -1,0 +1,70 @@
+@media (max-width: 430px) {
+  .textspace {
+    padding: 1.5vh 4vw;
+    font-size: 2.2vw;
+  }
+
+  .headline1 {
+    padding: 1vh 4vw;
+    font-size: 12vw;
+  }
+
+  .content_02 {
+    padding: 18vh 4vw;
+  }
+
+  .content_04 {
+    padding: 18vh 4vw;
+  }
+
+  .card {
+    height: 48vw;
+  }
+  .card-number {
+    font-size: 4vw;
+    margin-top: -15vw;
+  }
+
+  .card-title {
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+
+  .card-text {
+    font-size: 2.2vw;
+  }
+
+  .card-image {
+    width: 40vw;
+    height: 19vw;
+    margin-top: -3vw;
+  }
+
+  .carousel img {
+    width: 100%;
+    height: 130vw;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+  }
+
+  .product01 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vw;
+  }
+
+  .product02 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vw;
+  }
+
+  .product-card {
+    width: 92vw;
+    height: 87vw;
+  }
+}
